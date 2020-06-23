@@ -1,0 +1,33 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.btn-info {
+  @apply .bg-teal-400 .transition-colors .duration-75 .px-8 py-2 .rounded-md .justify-center .text-white .align-middle .font-serif;
+}
+
+.btn-info:hover {
+  @apply .bg-teal-500;
+}
+
+.title {
+  @apply .text-2xl .mb-3 .font-light .text-black .font-serif;
+}
+
+.paragraf {
+  @apply .mb-3 .max-w-xl .text-black .font-serif;
+}
+
+.btn-secondary {
+  @apply .border-2 .border-white .self-start .rounded-md .text-white .py-1 .px-4 .cursor-pointer .font-serif .mt-2;
+}
+
+.btn-black-outline {
+  @apply .border-2 .border-black .self-start .rounded-md .text-black .py-1 .px-4 .cursor-pointer .font-serif .mt-2;
+}
+
+.btn-secondary:hover {
+  @apply .shadow-xl .bg-black .border-black .text-white;
+}
